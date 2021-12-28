@@ -30,9 +30,11 @@ html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  min-height: 100vh;
 }
 body {
   margin: 0;
+  min-height: 100vh;
 }
 a {
   background: transparent;
@@ -6352,6 +6354,9 @@ hr {
     margin-right: 380px;
   }
 }
+.docs-container {
+  padding-bottom: 200px; 
+}
 .footer {
   padding-top: 40px;
   padding-bottom: 30px;
@@ -6360,6 +6365,9 @@ hr {
   background: #fff;
   text-align: center;
   border-top: 1px solid #eeeeee;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 .footer-links {
   margin: 10px 0;
@@ -6426,6 +6434,12 @@ hr {
 .docs-content {
   -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+@media (max-width: 767px) {
+  .docs-content{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 .docs-section + .docs-section {
   padding-top: 40px;
