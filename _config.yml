@@ -32,7 +32,7 @@ motto: Blog;
 banner: 
 
 #permalink: /:categories/:year/:month/:day/:title/
-permalink: /:year/:month/:day/:title
+permalink: /posts/:title
 paginate: 10
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
