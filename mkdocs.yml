@@ -26,7 +26,6 @@ theme:
     - navigation.tabs
 plugins:
   - search
-  - git-authors
 extra:
   homepage: /
 copyright: Copyright &copy; 2019 - 2022 Sangsu Lee
