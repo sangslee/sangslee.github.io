@@ -1,0 +1,34 @@
+site_name: My Docs
+theme:
+  name: material
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/eye
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/eye-outline
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  language: en
+  icon:
+    logo: material/security
+    repo: fontawesome/brands/github
+  features:
+    - navigation.tabs
+plugins:
+  - search
+  - git-authors
+extra:
+  homepage: /
+copyright: Copyright &copy; 2019 - 2022 Sangsu Lee
+repo_url: https://github.com/sangslee/sangslee.github.io
+repo_name: sangslee.github.io
